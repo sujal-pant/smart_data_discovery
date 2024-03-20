@@ -1,2 +1,2 @@
-# dataframe 
-# its booring yar
+# i loc and loc
+# loc is lable based 
