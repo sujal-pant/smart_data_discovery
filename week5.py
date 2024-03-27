@@ -4,16 +4,22 @@ os.getcwd();
 os.chdir('C:\\Users\Lenovo\Desktop')
 a = input("enter foldername:")
 os.mkdir(a)
-# to open a folder
+#  to open a folder
 a="sujal"
 flag=0
 for b in os.listdir():
     if b==a:
         flag=1
-        
+       
 if flag==1:
-     os.startfile(a)
+    os.startfile(a)
 else:
    print("error")
-# folder inside a folder
-   os.makedirs
+#  folder inside a folder
+os.makedirs
+#  matplot
+import numpy as np
+import matplotlib.pyplot as plt
+a = np.random.normal(size=200)
+print(a)
+plt.hist(a)
